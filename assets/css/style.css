@@ -584,6 +584,35 @@ span.blue {
 .slick-slide {
     height: inherit;
 }
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit;
+}
+.slick-dots {
+    bottom: -50px;
+}
+
+.slick-dots li button:before {
+    font-size: 4rem;
+    opacity: 1;
+    color: #1698a1;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #f20040;
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+.slick-dots li button:before {
+    content: '.';
+}
 /* Home Featured CSS End*/
 
 

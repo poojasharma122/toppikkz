@@ -513,6 +513,15 @@ span.blue {
     color: #f20040;
 }
 
+.after_banner_wrap .row {
+    background-color: #000;
+    border-top: 5px solid red;
+}
+
+.after_banner_wrap .row .col-lg-7 {
+    padding: 0;
+}
+
 /* After Banner  CSS End*/
 
 
@@ -525,11 +534,13 @@ span.blue {
     border-bottom: 5px solid #1698a1;
     height: 100%;
 }
+
 .featured_img {
     height: 200px;
     width: 100%;
     margin-bottom: 20px;
 }
+
 .featured_img_inner {
     background-size: cover;
     background-repeat: no-repeat;
@@ -537,36 +548,43 @@ span.blue {
     height: 100%;
     width: 100%;
 }
+
 .featured_text h3 {
     color: #f20040;
     font-size: 1.8rem;
 }
+
 .featured_text p {
     color: #fff;
     font-size: 1rem;
 }
+
 .featured_text .featured_price {
     color: #1698a1;
     margin-bottom: 10px;
     font-size: 1.1rem;
     font-weight: 500;
 }
-.featured_text ul{
-    margin:15px 0
+
+.featured_text ul {
+    margin: 15px 0
 }
+
 .featured_text ul li {
     list-style-type: disc;
     margin-left: 16px;
 }
+
 .featured_text ul li::marker {
     color: #f20040;
     font-size: 1.1rem;
 }
 
 .slick-slide {
-    margin: 0 20px; 
-  }
-  .star-rating {
+    margin: 0 20px;
+}
+
+.star-rating {
     font-size: 24px;
     cursor: pointer;
 }
@@ -584,6 +602,7 @@ span.blue {
 .slick-slide {
     height: inherit;
 }
+
 .slick-track {
     display: flex !important;
 }
@@ -591,12 +610,13 @@ span.blue {
 .slick-slide {
     height: inherit;
 }
+
 .slick-dots {
     bottom: -50px;
 }
 
 .slick-dots li button:before {
-    font-size: 4rem;
+    font-size: 5rem;
     opacity: 1;
     color: #1698a1;
 }
@@ -610,9 +630,9 @@ span.blue {
 .slick-next {
     display: none !important;
 }
+
 .slick-dots li button:before {
     content: '.';
 }
+
 /* Home Featured CSS End*/
-
-

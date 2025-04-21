@@ -101,10 +101,15 @@ html{
     .be_best {
         text-align: center;
     }
+    .brand-container a, .footer_logo a {
+        width: 12.75rem;
+    }
 
 }
 
 @media screen and (max-width:480px) {
-
+    .links_footr ul li a {
+        font-size: 1.1rem;
+    }
 
 }

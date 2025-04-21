@@ -716,7 +716,7 @@ span.blue {
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
     border-radius:20px 0;
     padding:1.5625rem ;
     height: 100%;
@@ -1002,5 +1002,107 @@ color: #1698a1;
 /* Contact Page CSS End */
 
 /* About Page CSS Start */
-
+.about_hotel_categories .bottom_text ,.about_hotel_categories .top_text {
+    font-size: 1.2rem;
+}
+.about_why_us_sec .why_us_card {
+    background-color: #f20040;
+}
+.about_why_us_sec .why_us_card:hover {
+    background-color: #1698a1;
+}
+.about_why_us_sec  .why_us_card_wrap {
+    max-width: 1300px;
+}
+.about_cards_rap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about_cards {
+    height: 100%;
+    width: 100%;
+    background:#1698a1;
+    padding: 1.875rem;
+    border-radius: 1.25rem 0;
+    transition: 0.2s all linear;
+}
+.about_cards:hover{
+    transform: translateY(-5px);
+}
+.about_cards_image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+.about_cards_image_inner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* About Page CSS End*/
+
+/* Footer Pages CSS Start*/
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    position: relative;
+    background: #000;
+    padding: 2.5rem 2rem;
+    margin-top: -100px;
+}
+
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-pages-content-grp h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.9375rem;
+    color: #1698a1;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp strong {
+    font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+
+.footer-pages-content-grp ul li::marker {
+    color: #f20040;
+}
+.footer-pages-content-grp p a {
+    color: #f20040;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 4px;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Pages CSS End*/

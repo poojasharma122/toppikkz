@@ -46,7 +46,9 @@
         height: 20px;
         width: 20px;
     }
-
+    .home_banner {
+        height: 30.625rem;
+    }
 
 }
 
@@ -83,6 +85,12 @@ html{
 .ssl_certi_inner {
     width: 7.5rem;
 }
+.banner_box h1 {
+    font-size: 2.5rem;
+}
+.home_banner {
+    height: 27.625rem;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -104,7 +112,9 @@ html{
     .brand-container a, .footer_logo a {
         width: 12.75rem;
     }
-
+    .home_cat_cards {
+        height: 22rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -124,5 +134,16 @@ html{
     .section_heading {
         font-size: 1.8rem;
     }
-
+    .banner_box h1 {
+        font-size: 2rem;
+    }
+    .banner_box h3 {
+        font-size: 1.3rem;
+    }
+    .home_banner {
+        height: 20.625rem;
+    }
+    .home_cat_cards {
+        height: 15rem;
+    }
 }

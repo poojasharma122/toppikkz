@@ -183,6 +183,25 @@ img {
 
 /* Global CSS End */
 
+/* Website Scrollbar CSS  */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1698a1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f20040;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f20040;
+}
+/* Website Scrollbar CSS  */
+
 /* Section Heading CSS Start */
 .section_heading {
     color: #fff;
@@ -208,7 +227,6 @@ span.blue {
 .aoshide {
     overflow: hidden;
 }
-
 /* Section Heading CSS End */
 
 /* Button CSS Start */

@@ -79,7 +79,7 @@ img {
 
 .container {
     width: 100%;
-    max-width: 1370px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 0.9375rem;
 }
@@ -313,7 +313,7 @@ span.blue {
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
-    width: 18.75rem;
+    width: 14.75rem;
 }
 
 .menu-toggle-btn {
@@ -495,15 +495,18 @@ span.blue {
 .img_part {
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .text_part {
     padding: 5rem 1.875rem;
 }
 
-.text_part h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.25rem;
+.text_part h3 {
+    color:#1698a1;
+    line-height: 1.3;
 }
 
 .text_part p {
@@ -538,7 +541,7 @@ span.blue {
 }
 
 .featured_img {
-    height: 200px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -566,6 +569,7 @@ span.blue {
     margin-bottom: 10px;
     font-size: 1.1rem;
     font-weight: 500;
+    margin-top: 5px;
 }
 
 .featured_text ul {
@@ -750,23 +754,15 @@ span.blue {
 }
 /* Why Us Cards CSS End */
 
-/* Home Page Signup CSS Start */
-
-
-.section-header p {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 700px;
-    margin: 20px auto;
+/* Newsletter CSS Start */
+.subscribe p {
+    font-size: 1.2rem;
 }
 
 .subscribe .form-row.justify-content-center {
     display: grid;
     grid-template-columns: 1fr auto;
-    max-width: 500px;
+    max-width: 650px;
     margin: 0 auto;
     gap: 20px;
 }
@@ -799,7 +795,7 @@ span.blue {
     outline: none !important;
     box-shadow: none !important;
 }
-/* Home Page Signup CSS End */
+/* Newsletter CSS End */
 
 /* Footer CSS Start */
 .site_footer {
@@ -907,3 +903,104 @@ span.blue {
 }
 
 /* Footer CSS End */
+
+
+/* Hotels Pages CSS Start */
+.hotels_why_us .why_us_card {
+    background-color: #1698a1;
+    border-top: 5px solid #f20040;
+    border-bottom: 5px solid #f20040;
+}
+.hotels_why_us .why_us_card:hover {
+    background-color: #f20040;
+}
+/* Hotels Pages CSS End */
+
+
+/* Contact Page CSS Start */
+
+
+.contact_card {
+    max-width: 500px;
+    background: #1698a1;
+    color: #fff;
+    border-radius: 0 20px;
+    padding: 40px 20px;
+}
+.contact_wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: -80px;
+    position: relative;
+    border: 5px solid #f20040;
+    border-radius: 20px 0;
+}
+
+.form_container,
+.contact_form_content {
+    width: 100%;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+    width: 100%;
+    border: 1px solid transparent;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 0.625rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#contact textarea {
+    resize: none;
+    height: auto;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #1c1c1a;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.contact-btn:hover {
+    border-color: #000;
+}
+
+.form_container {
+    color: #fff;
+}
+
+.contact_form_content p {
+    font-size: 1.1rem;
+}
+
+.contact_form_content p a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.form_container h2 {
+color: #1698a1;
+}
+
+/* Contact Page CSS End */
+
+/* About Page CSS Start */
+
+/* About Page CSS End*/

@@ -146,4 +146,7 @@ html{
     .home_cat_cards {
         height: 15rem;
     }
+    .why_us_card_text h5 {
+        font-size: 1.1rem;
+    }
 }

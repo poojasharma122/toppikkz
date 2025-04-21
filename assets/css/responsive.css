@@ -95,6 +95,12 @@ html{
     .section_heading {
         font-size: 2rem;
     }
+    .subscribe .form-row.justify-content-center {
+        grid-template-columns: 1fr;
+    }
+    .be_best {
+        text-align: center;
+    }
 
 }
 

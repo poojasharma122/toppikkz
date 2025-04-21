@@ -533,15 +533,15 @@ span.blue {
 /* Home Featured CSS Start */
 .featured_card {
     background: #111;
-    padding: 30px;
-    border-radius: 20px 0;
+    padding: 1.875rem;
+    border-radius: 1.25rem 0;
     border-top: 5px solid #f20040;
     border-bottom: 5px solid #1698a1;
     height: 100%;
 }
 
 .featured_img {
-    height: 300px;
+    height: 18.75rem;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -573,12 +573,12 @@ span.blue {
 }
 
 .featured_text ul {
-    margin: 15px 0
+    margin: 0.9375rem 0
 }
 
 .featured_text ul li {
     list-style-type: disc;
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .featured_text ul li::marker {
@@ -587,7 +587,7 @@ span.blue {
 }
 
 .slick-slide {
-    margin: 0 20px;
+    margin: 0 1.25rem;
 }
 
 .star-rating {

@@ -52,18 +52,37 @@
 
 
 @media (max-width: 991px) {
-
+    .img_part {
+        height: 26.42rem;
+    }
 
 }
 
 @media (max-width: 767px) {
-
-
+html{
+    font-size: 14px;
+}
+.text_part {
+    padding: 2rem 1rem;
+}
+.section_heading {
+    font-size: 2.5rem;
+}
+.slick-slide {
+    margin: 0;
+}
 }
 
 @media screen and (max-width:575px) {
-
-
+    .img_part {
+        height: 20.42rem;
+    }
+    .text_part p {
+        font-size: 1.1rem;
+    }
+    .section_heading {
+        font-size: 2rem;
+    }
 
 }
 

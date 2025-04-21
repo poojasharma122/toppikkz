@@ -521,6 +521,7 @@ span.blue {
 .after_banner_wrap .row {
     background-color: #000;
     border-top: 5px solid #f20040;
+    border-bottom: 5px solid #1698a1;
 }
 
 .after_banner_wrap .row .col-lg-7 {

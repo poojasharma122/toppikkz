@@ -71,6 +71,18 @@ html{
 .slick-slide {
     margin: 0;
 }
+.copy_txt p {
+    text-align: center;
+}
+.copy_txt p {
+    font-size: 0.9rem;
+}
+.ssl_certi {
+    justify-content: center;
+}
+.ssl_certi_inner {
+    width: 7.5rem;
+}
 }
 
 @media screen and (max-width:575px) {

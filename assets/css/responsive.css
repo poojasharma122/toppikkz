@@ -111,5 +111,18 @@ html{
     .links_footr ul li a {
         font-size: 1.1rem;
     }
+    .featured_text h3 {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+    .why_us_card_wrap>p {
+        font-size: 1rem;
+    }
+    .subscribe p {
+        font-size: 1.1rem;
+    }
+    .section_heading {
+        font-size: 1.8rem;
+    }
 
 }

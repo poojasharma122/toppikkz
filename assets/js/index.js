@@ -23,6 +23,7 @@ AOS.init({
   slidesToScroll: 1,
   infinite:true,
   autoplay:true,
+  autoplaySpeed:1500,
   dots:true,
   arrow:true,
   responsive: [

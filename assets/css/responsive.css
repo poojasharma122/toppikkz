@@ -43,8 +43,8 @@
         text-align: end;
         z-index: 55;
         font-size: 21px;
-        height: 20px;
-        width: 20px;
+        height: 2rem;
+        width: 2rem;
     }
     .home_banner {
         height: 30.625rem;
@@ -114,6 +114,13 @@ html{
     }
     .home_cat_cards {
         height: 22rem;
+    }
+    .py-10 {
+        padding: 4.25rem 0;
+    }
+    .menu-toggle-btn {
+        width: 2rem;
+        height: 2rem;
     }
 }
 

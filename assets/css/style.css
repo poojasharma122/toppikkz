@@ -230,7 +230,7 @@ span.blue {
     padding: 0.9375rem 1.875rem;
     overflow: hidden;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
 
 .butn::after,
@@ -283,7 +283,7 @@ span.blue {
     transition: all 0.3s ease-in-out;
     padding: 0 40px;
     background-color: #111;
-    padding: 15px 0px;
+    padding: 0.9375rem 0px;
 }
 
 .main-container {
@@ -291,7 +291,7 @@ span.blue {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
 }
 
 .navigation-bar {
@@ -312,14 +312,14 @@ span.blue {
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60px;
+    height: 3.75rem;
     width: 14.75rem;
 }
 
 .menu-toggle-btn {
     display: none;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     text-align: right;
     cursor: pointer;
     margin: auto 0;
@@ -422,7 +422,7 @@ span.blue {
 }
 
 .fancy_heading {
-    height: 40px;
+    height: 2.5rem;
     width: 100%;
     margin: 0 auto;
     animation-delay: 0.7s;
@@ -433,7 +433,7 @@ span.blue {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    max-width: 300px;
+    max-width: 18.75rem;
     margin: 0 auto;
 
 }
@@ -567,7 +567,7 @@ span.blue {
 
 .featured_text .featured_price {
     color: #1698a1;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-size: 1.1rem;
     font-weight: 500;
     margin-top: 5px;
@@ -592,19 +592,15 @@ span.blue {
 }
 
 .star-rating {
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .star {
-    color: #ccc;
+    color: gold;
     transition: color 0.2s;
 }
 
-.star:hover,
-.star.active {
-    color: gold;
-}
 
 .slick-slide {
     height: inherit;

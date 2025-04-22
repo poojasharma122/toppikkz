@@ -220,4 +220,10 @@ html{
     .footer-pages-wrap {
         padding: 1.5rem;
     }
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+    .py-10 {
+        padding: 3.25rem 0;
+    }
 }

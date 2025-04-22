@@ -200,6 +200,7 @@ img {
 ::-webkit-scrollbar-thumb:hover {
     background: #f20040;
 }
+
 /* Website Scrollbar CSS  */
 
 /* Section Heading CSS Start */
@@ -227,6 +228,7 @@ span.blue {
 .aoshide {
     overflow: hidden;
 }
+
 /* Section Heading CSS End */
 
 /* Button CSS Start */
@@ -325,7 +327,8 @@ span.blue {
     display: inline-block;
 }
 
-.brand-container a ,.footer_logo a {
+.brand-container a,
+.footer_logo a {
     background-image: url(../images/logo.svg);
     background-position: left;
     background-size: contain;
@@ -523,7 +526,7 @@ span.blue {
 }
 
 .text_part h3 {
-    color:#1698a1;
+    color: #1698a1;
     line-height: 1.3;
 }
 
@@ -677,8 +680,7 @@ span.blue {
 .home_cat_cards::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0);
@@ -732,8 +734,8 @@ span.blue {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: all 0.4s ease;
-    border-radius:20px 0;
-    padding:1.5625rem ;
+    border-radius: 20px 0;
+    padding: 1.5625rem;
     height: 100%;
     border-top: 4px solid #1698a1;
     border-bottom: 4px solid #1698a1;
@@ -748,10 +750,12 @@ span.blue {
     max-width: 62.5rem;
     margin: 0 auto;
 }
+
 .why_us_card_icon {
     width: 100%;
     margin: 0 auto;
 }
+
 .why_us_card_icon_inner {
     height: 3.75rem;
     width: 3.75rem;
@@ -760,13 +764,16 @@ span.blue {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .why_us_card_text h5 {
     font-size: 1.2rem;
     line-height: 1.4;
 }
+
 .why_us_card_wrap>p {
     font-size: 1.2rem;
 }
+
 /* Why Us Cards CSS End */
 
 /* Newsletter CSS Start */
@@ -802,15 +809,18 @@ span.blue {
     line-height: 1;
     font-weight: 500;
 }
-.subscribe input::placeholder{
+
+.subscribe input::placeholder {
     color: #fff;
 }
+
 .form-control:focus {
-    background-color:#111 !important;
+    background-color: #111 !important;
     border: inherit !important;
     outline: none !important;
     box-shadow: none !important;
 }
+
 /* Newsletter CSS End */
 
 /* Footer CSS Start */
@@ -836,7 +846,8 @@ span.blue {
     font-size: 1.1rem;
     color: #fff;
 }
-.disclaimer p  a{
+
+.disclaimer p a {
     color: #f20040;
 }
 
@@ -881,6 +892,7 @@ span.blue {
 .social-links a:hover {
     transform: translateY(-5px);
 }
+
 .social-links a svg {
     height: 100%;
     width: 100%;
@@ -927,9 +939,11 @@ span.blue {
     border-top: 5px solid #f20040;
     border-bottom: 5px solid #f20040;
 }
+
 .hotels_why_us .why_us_card:hover {
     background-color: #f20040;
 }
+
 /* Hotels Pages CSS End */
 
 
@@ -943,6 +957,7 @@ span.blue {
     border-radius: 0 1.25rem;
     padding: 2.5rem 1.25rem;
 }
+
 .contact_wrap {
     max-width: 81.25rem;
     margin: 0 auto;
@@ -1012,44 +1027,53 @@ fieldset {
 }
 
 .form_container h2 {
-color: #1698a1;
+    color: #1698a1;
 }
 
 /* Contact Page CSS End */
 
 /* About Page CSS Start */
-.about_hotel_categories .bottom_text ,.about_hotel_categories .top_text {
+.about_hotel_categories .bottom_text,
+.about_hotel_categories .top_text {
     font-size: 1.2rem;
 }
+
 .about_why_us_sec .why_us_card {
     background-color: #f20040;
 }
+
 .about_why_us_sec .why_us_card:hover {
     background-color: #1698a1;
 }
-.about_why_us_sec  .why_us_card_wrap {
+
+.about_why_us_sec .why_us_card_wrap {
     max-width: 81.25rem;
 }
+
 .about_cards_rap {
     max-width: 75rem;
     margin: 0 auto;
 }
+
 .about_cards {
     height: 100%;
     width: 100%;
-    background:#1698a1;
+    background: #1698a1;
     padding: 1.875rem;
     border-radius: 1.25rem 0;
     transition: 0.2s all linear;
 }
-.about_cards:hover{
+
+.about_cards:hover {
     transform: translateY(-5px);
 }
+
 .about_cards_image {
     height: 15.625rem;
     width: 100%;
     overflow: hidden;
 }
+
 .about_cards_image_inner {
     height: 100%;
     width: 100%;
@@ -1057,6 +1081,7 @@ color: #1698a1;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* About Page CSS End*/
 
 /* Footer Pages CSS Start*/
@@ -1110,6 +1135,7 @@ color: #1698a1;
 .footer-pages-content-grp ul li::marker {
     color: #f20040;
 }
+
 .footer-pages-content-grp p a {
     color: #f20040;
     display: inline-block;

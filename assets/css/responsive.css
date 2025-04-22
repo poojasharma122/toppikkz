@@ -57,6 +57,9 @@
     .img_part {
         height: 26.42rem;
     }
+    .contact_form_content p {
+        font-size: 1rem;
+    }
 
 }
 
@@ -91,6 +94,15 @@ html{
 .home_banner {
     height: 27.625rem;
 }
+.p-5 {
+    padding: 1.5rem!important;
+}
+.contact_card {
+    max-width: 100%;
+}
+.form_container {
+    margin-top: 2.5rem;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -122,6 +134,15 @@ html{
         width: 2rem;
         height: 2rem;
     }
+    .about_hotel_categories .bottom_text, .about_hotel_categories .top_text {
+        font-size: 1.1rem;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+    .contact_wrap {
+        margin-top: -50px;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -129,17 +150,17 @@ html{
         font-size: 1.1rem;
     }
     .featured_text h3 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 1.4;
     }
     .why_us_card_wrap>p {
         font-size: 1rem;
     }
     .subscribe p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .section_heading {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .banner_box h1 {
         font-size: 2rem;
@@ -155,5 +176,48 @@ html{
     }
     .why_us_card_text h5 {
         font-size: 1.1rem;
+    }
+    .pt-7 {
+        padding-top: 2.375rem;
+    }
+    .pb-7 {
+        padding-bottom: 2.375rem;
+    }
+    .menu-toggle-btn {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .fancy_heading_img {
+        max-width: 14.75rem;
+    }
+    .disclaimer p {
+        font-size: 1rem;
+    }
+    .text_part p {
+        font-size: 1rem;
+    }
+    .butn {
+        font-size: 1rem;
+    }
+    .featured_img {
+        height: 13.75rem;
+    }
+    .about_hotel_categories .bottom_text, .about_hotel_categories .top_text {
+        font-size: 1rem;
+    }
+    .banner_box {
+        gap: 0.5rem;
+    }
+    #contact input, #contact textarea, #contact select {
+        font-size: 1rem;
+    }
+    .footer-pages-content-grp p {
+        font-size: 1rem;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 1.3rem;
+    }
+    .footer-pages-wrap {
+        padding: 1.5rem;
     }
 }

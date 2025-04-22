@@ -508,6 +508,7 @@ span.blue {
 .banner_box h3 {
     font-size: 1.5rem;
     text-transform: capitalize;
+    line-height: 1.4;
 }
 
 /* Banner Section  CSS End */

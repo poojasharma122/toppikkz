@@ -28,6 +28,15 @@ $('.home_featured_slider').slick({
   arrow: true,
   responsive: [
     {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        centerPadding: '0',
+        slidesToShow: 1,
+      }
+    },
+    {
       breakpoint: 768,
       settings: {
         arrows: false,

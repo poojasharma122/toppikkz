@@ -143,6 +143,9 @@ html{
     .contact_wrap {
         margin-top: -50px;
     }
+    .disclaimer {
+        margin-top: 25px;
+    }
 }
 
 @media screen and (max-width:480px) {

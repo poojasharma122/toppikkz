@@ -778,7 +778,9 @@ span.blue {
     color: #f20040;
     font-size: 2rem;
 }
-
+.why_us_card_wrap .section_heading {
+    line-height: 1.4;
+}
 /* Why Us Cards CSS End */
 
 /* Newsletter CSS Start */

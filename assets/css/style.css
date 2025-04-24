@@ -669,7 +669,6 @@ span.blue {
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
     transition: all 0.5s ease;
     background-position: center;
     background-repeat: no-repeat;
@@ -1089,6 +1088,11 @@ fieldset {
     background-repeat: no-repeat;
 }
 
+.about_hotel_categories .home_cat_cards:hover .home_cat_cards_content {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* About Page CSS End*/
 
 /* Footer Pages CSS Start*/
@@ -1154,5 +1158,4 @@ fieldset {
 .footer-pages-content-grp p a:hover {
     text-decoration: underline;
 }
-
 /* Footer Pages CSS End*/

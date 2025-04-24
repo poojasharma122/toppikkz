@@ -774,6 +774,10 @@ span.blue {
 .why_us_card_wrap>p {
     font-size: 1.2rem;
 }
+.why_us_card_wrap>p.what_we_look {
+    color: #f20040;
+    font-size: 2rem;
+}
 
 /* Why Us Cards CSS End */
 
